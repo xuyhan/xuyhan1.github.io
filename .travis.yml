@@ -14,7 +14,7 @@ skip-cleanup: true
 github-token: $GH_TOKEN
 keep-history: true
 # added
-target_branch: master # generate static files to master
+target_branch: gen # generate static files to master
 on:
 branch: hexo-source # source code of hexo
 local-dir: public
